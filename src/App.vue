@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-  项目开始了
+  <router-view></router-view>
   </div>
 </template>
 
 <script>
+// import Login from '@/views/login'
 export default {
   name: 'App'
 }
